@@ -15,8 +15,8 @@ def main(page: ft.Page):
         controls=[
             ft.Row(
                 controls=[
-                    new_task,                                   ## esse é o que devo alterar
-                    ft.FloatingActionButton(icon=ft.Icons.ADD, on_click=add_clicked),
+                    new_task,                                   
+                    ft.FloatingActionButton(icon=ft.Icons.ADD, on_click=add_clicked), ## tenho que alterar esse "add_clicked" para a funcionalidade do banco
                 ],
             ),
             tasks_view,
