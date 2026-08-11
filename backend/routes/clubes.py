@@ -18,4 +18,14 @@ class ClubeCreate(BaseModel):
 
 
     @router.get("/{registro_id}")
-    def obter
+    def obter(registro_id: int) -> dict:
+        """ """
+        registro = clubes_service.obter(registro_id)
+        if registro is None:
+            raise HTTPException(status_code=404, detail="Clube não encontrado")
+        return registro
+
+    @router.post("", status_code=201)
+    def criar(payload: ClubeCreate) -> dict:
+        """ """
+        return clubes_service.criar(payload.model_dump())
