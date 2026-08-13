@@ -1,5 +1,6 @@
 # BookClub Hub
 
+
 Sistema de gerenciamento de clubes de leitura.
 
 O BookClub Hub foi desenvolvido para centralizar a administração de clubes de leitura em uma única plataforma. O sistema organiza membros, livros, leituras, encontros, presenças, avaliações, sugestões e votações, mantendo essas informações estruturadas e relacionadas em um banco de dados.
