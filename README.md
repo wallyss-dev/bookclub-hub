@@ -1,6 +1,5 @@
-# bookClub hub
-
 # BookClub Hub
+
 
 Sistema de gerenciamento de clubes de leitura.
 
